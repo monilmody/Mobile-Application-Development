@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Dollar-Euro</string>
+    <string name="currency_converter">Dollar to Euro Converter</string>
+    <string name="enter_the_amount">Enter the Dollar amount in Int</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="convert">CONVERT</string>
+    <string name="calculator">Calculator</string>
+</resources>
