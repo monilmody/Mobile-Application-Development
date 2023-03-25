@@ -6,123 +6,94 @@
     android:background="@color/teal_200"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".MainActivity">
-
+    tools:context=".MainActivity"
+    android:id="@+id/linearLayout">
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imageView4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:contentDescription="@string/calculator"
-        tools:srcCompat="@drawable/image1" />
+        app:srcCompat="@drawable/image3" />
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-
-        <TextView
+    <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/currency_converter"
-            android:textSize="30sp" />
+            android:textSize="30sp"
+            tools:layout_conversion_absoluteHeight="40dp"
+            tools:layout_editor_absoluteY="400dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_conversion_absoluteWidth="380dp" />
 
-
-    </LinearLayout>
-
-
-    <LinearLayout
+    <EditText
+        android:id="@+id/editTxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-
-        <EditText
-            android:id="@+id/editTxt"
-            android:layout_width="180dp"
-            android:layout_height="wrap_content"
-            android:ems="10"
-
-            />
+        android:ems="10"
+        tools:layout_conversion_absoluteHeight="45dp"
+        tools:layout_conversion_absoluteWidth="180dp"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="440dp"
+        tools:visibility="visible" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/enter_the_amount"
-
-
-            />
-
-
-    </LinearLayout>
-
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
+            tools:layout_conversion_absoluteHeight="19dp"
+            tools:layout_editor_absoluteY="454dp"
+            tools:layout_editor_absoluteX="205dp"
+            tools:layout_conversion_absoluteWidth="181dp" />
 
         <Spinner
             android:id="@+id/spFrom"
             android:layout_width="wrap_content"
-            android:layout_height="35dp"
+            android:layout_height="wrap_content"
             android:ems="10"
-
-            />
+            tools:layout_conversion_absoluteHeight="35dp"
+            tools:layout_editor_absoluteY="485dp"
+            tools:layout_editor_absoluteX="165dp"
+            tools:layout_conversion_absoluteWidth="48dp" />
 
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:text="@string/from"
-
-
-            />
-
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
+            tools:layout_conversion_absoluteHeight="35dp"
+            tools:layout_editor_absoluteY="485dp"
+            tools:layout_editor_absoluteX="213dp"
+            tools:layout_conversion_absoluteWidth="33dp" />
 
         <Spinner
             android:id="@+id/spTo"
             android:layout_width="wrap_content"
-            android:layout_height="34dp"
+            android:layout_height="wrap_content"
             android:ems="10"
-
-            />
+            tools:layout_conversion_absoluteHeight="34dp"
+            tools:layout_editor_absoluteY="520dp"
+            tools:layout_editor_absoluteX="165dp"
+            tools:layout_conversion_absoluteWidth="48dp" />
 
         <TextView
-            android:layout_width="34dp"
-            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="@string/to"
-
-
-            />
-
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
+            tools:layout_conversion_absoluteHeight="34dp"
+            tools:layout_editor_absoluteY="520dp"
+            tools:layout_editor_absoluteX="213dp"
+            tools:layout_conversion_absoluteWidth="34dp" />
 
         <Button
             android:id="@+id/btn1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@color/purple_500"
-            android:text="@string/convert" />
+            android:text="@string/convert"
+            tools:layout_conversion_absoluteHeight="48dp"
+            tools:layout_editor_absoluteY="554dp"
+            tools:layout_editor_absoluteX="154dp"
+            tools:layout_conversion_absoluteWidth="104dp" />
 
-
-    </LinearLayout>
 
 
 </LinearLayout>
