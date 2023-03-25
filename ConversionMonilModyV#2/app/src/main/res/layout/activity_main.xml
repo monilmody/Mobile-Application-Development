@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/teal_200"
     android:gravity="center"
     android:orientation="vertical"
     tools:context=".MainActivity">
@@ -25,8 +26,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/currency_converter"
-            android:textSize="30sp"
-            />
+            android:textSize="30sp" />
 
 
     </LinearLayout>
@@ -119,8 +119,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@color/purple_500"
-            android:text="@string/convert"
-            />
+            android:text="@string/convert" />
 
 
     </LinearLayout>
